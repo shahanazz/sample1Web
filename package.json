@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "http-server -c-1 -p 1024"
   },
   "author": "",
   "license": "ISC",
