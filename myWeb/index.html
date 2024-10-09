@@ -7,6 +7,38 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/f/f2/Nyumbani_Hotel_Logo.png" type="image/x-icon">
 
+    <style>
+      .search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline: none;
+}
+
+.search input::placeholder {
+  color: #888;
+}
+
+.search input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.search input:hover {
+  border-color: #555;
+}
+
+
+    </style>
 </head>
 <body>
     <!-- <h1>Hello git</h1> -->
@@ -26,7 +58,7 @@
                   </ul>
     </div>
     <div class="search">
-      <input type="text" placeholder="enter keyword">
+      <input type="text" placeholder="search">
     </div>
     
   </div>
